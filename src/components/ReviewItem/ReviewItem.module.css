@@ -1,0 +1,24 @@
+.card {
+    display: block;
+    color: var(--dark-gray);
+    padding: 20px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.hr {
+    margin: 10px 0;
+}
+
+.positive {
+    background: #e9f5e9;
+}
+
+.negative {
+    background: #fde9e9;
+}
+
+.neutral {
+    background: var(--light-gray);
+}

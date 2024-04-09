@@ -1,0 +1,18 @@
+.cont {
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--light-gray);
+}
+
+.btn {
+    text-decoration: underline;
+    border: none;
+    background: transparent;
+    color: var(--light-gray);
+    font-size: 1rem;
+}
+
+.btn:disabled {
+    color: var(--dark-gray);
+}

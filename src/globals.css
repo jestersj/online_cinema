@@ -1,0 +1,78 @@
+:root {
+    --bg-color: #08070a;
+    --text-color: white;
+    --gradient: linear-gradient(90deg, rgba(106, 17, 203, 1) 0%, rgba(37, 117, 252, 1) 100%);
+    --secondary_btn: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%);
+    --border-color: #2a6af7;
+    --light-gray: #BABABA;
+    --dark-gray: #4B4B4B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+.custom_cont {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+#slider .range-slider__range {
+    background: var(--gradient);
+    transition: height 0.3s;
+}
+
+#slider .range-slider__thumb {
+    background: var(--border-color);
+    transition: transform 0.3s;
+}
+
+#slider .range-slider__thumb[data-active] {
+    transform: translate(-50%, -50%) scale(1.25);
+}
+
+#slider .range-slider__range[data-active] {
+    height: 16px;
+}
+
+.gradient_button {
+    background: var(--gradient);
+    color: var(--text-color);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.gray_btn {
+    background: var(--light-gray);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 14px;
+    }
+
+    .custom_cont {
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+}

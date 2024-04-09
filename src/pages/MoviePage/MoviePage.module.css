@@ -1,0 +1,30 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img {
+    height: 300px;
+    width: auto;
+}
+
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.carousel_cont {
+    width: 70%;
+}
+
+.col {
+    flex: 1;
+}
+
+@media (max-width: 1000px) {
+    .carousel_cont {
+        width: 100%;
+    }
+}

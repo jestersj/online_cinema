@@ -1,0 +1,46 @@
+.filters_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filter_col {
+    width: 30%;
+}
+
+.btn_block {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.limit_block {
+    display: flex;
+    gap: 15px;
+    color: var(--light-gray);
+}
+
+.limit_block button {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: var(--light-gray);
+}
+
+.limit_block button:disabled {
+    color: var(--dark-gray);
+}
+
+@media (max-width: 1000px) {
+    .filter_col {
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 70px;
+    height: auto;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}

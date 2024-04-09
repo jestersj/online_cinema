@@ -1,0 +1,50 @@
+.seasons {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.circle {
+    border-radius: 20px;
+    padding: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    font-size: 1rem;
+    border: none;
+    transition: 0.4s;
+}
+
+.circle:hover {
+    transform: scale(110%);
+}
+
+.active {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.not_active {
+    color: var(--text-color);
+    background: var(--secondary_btn);
+}
+
+.desktop {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}

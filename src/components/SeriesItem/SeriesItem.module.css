@@ -1,0 +1,30 @@
+.item button {
+    border: none;
+    background: none;
+}
+
+.img {
+    width: auto;
+    height: 230px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: 0.4s;
+}
+
+.img:hover {
+    border: 3px solid var(--border-color);
+}
+
+.item p {
+    text-align: left;
+    font-size: 1rem;
+    margin: 12px 0;
+}
+
+.white_text {
+    color: var(--text-color);
+}
+
+.gray_text {
+    color: var(--light-gray);
+}

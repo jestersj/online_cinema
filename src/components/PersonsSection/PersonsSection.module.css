@@ -1,0 +1,16 @@
+.cont {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont ul {
+    flex: 1;
+    list-style: none;
+}
+
+@media (max-width: 1000px) {
+    .cont {
+        height: fit-content;
+    }
+}
