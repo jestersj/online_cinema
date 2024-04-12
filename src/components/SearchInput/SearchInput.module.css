@@ -23,7 +23,7 @@
     list-style: none;
 }
 
-.suggestions_block a {
+.suggestions_block  li a {
     display: block;
     width: 100%;
     padding: 10px;
